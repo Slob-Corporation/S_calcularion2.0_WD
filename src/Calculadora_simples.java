@@ -123,7 +123,15 @@ public class Calculadora_simples extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_somaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_somaActionPerformed
+ 
+        float valor1 = Float.valueOf (txt_num1.getText());
         
+        float valor2 = Float.valueOf (txt_num2.getText());
+       
+        float soma = valor1+valor2;
+    
+        txt_Result.setText("R: "+soma);
+     
     }//GEN-LAST:event_btn_somaActionPerformed
 
     private void txt_num1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_num1ActionPerformed
@@ -131,6 +139,14 @@ public class Calculadora_simples extends javax.swing.JFrame {
     }//GEN-LAST:event_txt_num1ActionPerformed
 
     private void btn_subtracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_subtracaoActionPerformed
+               
+        float valor1 = Float.valueOf (txt_num1.getText());
+        
+        float valor2 = Float.valueOf (txt_num2.getText());
+       
+        float sub = valor1 - valor2;
+    
+        txt_Result.setText("R: "+sub);
         
     }//GEN-LAST:event_btn_subtracaoActionPerformed
 
