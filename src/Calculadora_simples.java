@@ -123,15 +123,19 @@ public class Calculadora_simples extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_somaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_somaActionPerformed
- 
+        
+        // Começo do desenvolvimento:    
         float valor1 = Float.valueOf (txt_num1.getText());
         
         float valor2 = Float.valueOf (txt_num2.getText());
        
         float soma = valor1+valor2;
-    
+        
+        // Resultado:
         txt_Result.setText("R: "+soma);
      
+        
+        //Allison W.
     }//GEN-LAST:event_btn_somaActionPerformed
 
     private void txt_num1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_num1ActionPerformed
@@ -139,15 +143,19 @@ public class Calculadora_simples extends javax.swing.JFrame {
     }//GEN-LAST:event_txt_num1ActionPerformed
 
     private void btn_subtracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_subtracaoActionPerformed
-               
+        
+        // Começo do desenvolvimento:       
         float valor1 = Float.valueOf (txt_num1.getText());
         
         float valor2 = Float.valueOf (txt_num2.getText());
        
         float sub = valor1 - valor2;
-    
+        
+        // Resultado:
         txt_Result.setText("R: "+sub);
         
+        
+        //Allison W.
     }//GEN-LAST:event_btn_subtracaoActionPerformed
 
     private void btn_multiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplyActionPerformed
@@ -155,6 +163,7 @@ public class Calculadora_simples extends javax.swing.JFrame {
         float valor2=Float.valueOf(txt_num2.getText());
         float multiply= valor1*valor2;
         txt_Result.setText("R: "+multiply);
+        //Danilo...
     }//GEN-LAST:event_btn_multiplyActionPerformed
 
     private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
@@ -162,6 +171,7 @@ public class Calculadora_simples extends javax.swing.JFrame {
         float valor2=Float.valueOf(txt_num2.getText());
         float divigion= valor1/valor2;
         txt_Result.setText("R: "+divigion);
+        //Danilo...
     }//GEN-LAST:event_btn_divisionActionPerformed
 
     private void txt_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_num2ActionPerformed
