@@ -126,35 +126,38 @@ public class Calculadora_simples extends javax.swing.JFrame {
     }//GEN-LAST:event_txt_num1ActionPerformed
 
     private void btn_subtracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_subtracaoActionPerformed
-        
-        // Começo do desenvolvimento:       
+                
+        // Começo do desenvolvimento:    
         float valor1 = Float.valueOf (txt_num1.getText());
         
         float valor2 = Float.valueOf (txt_num2.getText());
        
-        float sub = valor1 - valor2;
+        float sub = valor1-valor2;
         
         // Resultado:
         txt_Result.setText("R: "+sub);
-        
+     
         
         //Allison W.
     }//GEN-LAST:event_btn_subtracaoActionPerformed
 
     private void btn_multiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplyActionPerformed
-        float valor1=Float.valueOf(txt_num1.getText());
-        float valor2=Float.valueOf(txt_num2.getText());
-        float multiply= valor1*valor2;
-        txt_Result.setText("R: "+multiply);
-        //Danilo...
+        //puxando os valores(nessecitara de uma melhoria relacionada ao caso de um caracter nao numeral)
+		float valor1=Float.valueOf(txt_num1.getText());
+		float valor2=Float.valueOf(txt_num2.getText());
+		//adicionando a funcionalidade do botao
+		float multiply= valor1*valor2;
+		//mostrando do resultado ao usuario
+		txt_Result.setText("R: "+multiply);
+		/**OBS: o sistema deve sofrer um aprimoramento relacionado a:
+		 * adicao de valores(poder receber mais de 2 valores em uma unica conta)
+		 * melhoramento da interfasse do resultado
+		 * manutencao preventiva do sistema e revisao extensiva
+		*/
     }//GEN-LAST:event_btn_multiplyActionPerformed
 
     private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
-        float valor1=Float.valueOf(txt_num1.getText());
-        float valor2=Float.valueOf(txt_num2.getText());
-        float divigion= valor1/valor2;
-        txt_Result.setText("R: "+divigion);
-        //Danilo...
+        
     }//GEN-LAST:event_btn_divisionActionPerformed
 
     private void txt_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_num2ActionPerformed
