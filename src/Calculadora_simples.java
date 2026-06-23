@@ -140,24 +140,39 @@ public class Calculadora_simples extends javax.swing.JFrame {
         
         //Allison W.
     }//GEN-LAST:event_btn_subtracaoActionPerformed
-
+    // Dando de imediato minhas cinseras desculpas envolvendo os commits do sistema, eu(Danilo Pagliochi Araujo) me responabiliso por quaiquer incomodos com nossa organisasao
     private void btn_multiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplyActionPerformed
+        //RESPONSAVEL:Danilo Pagliochi Araujo
+        
         //puxando os valores(nessecitara de uma melhoria relacionada ao caso de um caracter nao numeral)
-		float valor1=Float.valueOf(txt_num1.getText());
-		float valor2=Float.valueOf(txt_num2.getText());
-		//adicionando a funcionalidade do botao
-		float multiply= valor1*valor2;
-		//mostrando do resultado ao usuario
-		txt_Result.setText("R: "+multiply);
-		/**OBS: o sistema deve sofrer um aprimoramento relacionado a:
-		 * adicao de valores(poder receber mais de 2 valores em uma unica conta)
-		 * melhoramento da interfasse do resultado
-		 * manutencao preventiva do sistema e revisao extensiva
-		*/
+	float valor1=Float.valueOf(txt_num1.getText());
+	float valor2=Float.valueOf(txt_num2.getText());
+	//adicionando a funcionalidade do botao
+	float multiply= valor1*valor2;
+	//mostrando do resultado ao usuario
+	txt_Result.setText("R: "+multiply);
+	/**OBS: o sistema deve sofrer um aprimoramento relacionado a:
+	 * adicao de valores(poder receber mais de 2 valores em uma unica conta)
+	 * melhoramento da interfasse do resultado
+	 * manutencao preventiva do sistema e revisao extensiva
+	*/
     }//GEN-LAST:event_btn_multiplyActionPerformed
 
     private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
+        //RESPONSAVEL:Danilo Pagliochi Araujo
         
+        //puxando os valores(nessecitara de uma melhoria relacionada ao caso de um caracter nao numeral)
+	float valor1=Float.valueOf(txt_num1.getText());
+	float valor2=Float.valueOf(txt_num2.getText());
+	//adicionando a funcionalidade do botao
+	float divigion= valor1/valor2;
+	//mostrando do resultado ao usuario
+	txt_Result.setText("R: "+divigion);
+	/**OBS: o sistema deve sofrer um aprimoramento relacionado a:
+	 * adicao de valores(poder receber mais de 2 valores em uma unica conta)
+	 * melhoramento da interfasse do resultado
+	 * manutencao preventiva do sistema e revisao extensiva
+	*/
     }//GEN-LAST:event_btn_divisionActionPerformed
 
     private void txt_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_num2ActionPerformed
